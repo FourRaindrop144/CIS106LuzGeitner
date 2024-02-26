@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Surface Pro 4"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-26 11:31:19 AM"/>
+        <attribute name="created" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wMi0yNTswMToyNjoxNyBQTTszNDQw"/>
+        <attribute name="edited" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wMi0yNjsxMTozMToxOSBBTTsxOzM1MzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Qty" type="Integer" array="False" size=""/>
+            <declare name="unitprice" type="Real" array="False" size=""/>
+            <declare name="exprice" type="Real" array="False" size=""/>
+            <input variable="Qty"/>
+            <input variable="unitprice"/>
+            <assign variable="exprice" expression="Qty * unitprice"/>
+            <output expression="&quot;your extended price is $&quot; &amp;exprice" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

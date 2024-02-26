@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Surface Pro 4"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-26 11:49:39 AM"/>
+        <attribute name="created" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wMi0yNjsxMTo0NDoxMSBBTTszNDIx"/>
+        <attribute name="edited" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wMi0yNjsxMTo0OTozOSBBTTsxOzM1NDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lastname" type="String" array="False" size=""/>
+            <declare name="numCredits" type="Integer" array="False" size=""/>
+            <declare name="tuition" type="Integer" array="False" size=""/>
+            <input variable="lastname"/>
+            <input variable="numCredits"/>
+            <assign variable="tuition" expression="numCredits * 250 + 100"/>
+            <output expression="&quot;Last Name : &quot; &amp;lastname&amp; &quot; Tuition: $&quot; &amp;tuition" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

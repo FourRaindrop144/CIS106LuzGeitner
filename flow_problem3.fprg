@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Surface Pro 4"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-26 11:44:09 AM"/>
+        <attribute name="created" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wMi0yNjsxMTozODoyNSBBTTszNDI5"/>
+        <attribute name="edited" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wMi0yNjsxMTo0NDowOSBBTTsxOzM1MzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numLength" type="Real" array="False" size=""/>
+            <declare name="numWidth" type="Real" array="False" size=""/>
+            <declare name="numArea" type="Real" array="False" size=""/>
+            <declare name="numCirc" type="Real" array="False" size=""/>
+            <input variable="numLength"/>
+            <input variable="numWidth"/>
+            <assign variable="numArea" expression="numLength * numWidth"/>
+            <assign variable="numCirc" expression="2*numLength + 2*numWidth"/>
+            <output expression="&quot;Your area is: &quot; &amp;numArea&amp; &quot;. And your circumference is: &quot; &amp;numCirc" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
