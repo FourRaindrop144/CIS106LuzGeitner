@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Surface Pro 4"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 12:28:59 PM"/>
+        <attribute name="created" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wMy0wNDsxMTo1NzozMyBBTTszNDI2"/>
+        <attribute name="edited" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wMy0wNDsxMjoyODo1OSBQTTszOzM1NTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="stSymbol" type="String" array="False" size=""/>
+            <declare name="numShare" type="Integer" array="False" size=""/>
+            <declare name="numCost" type="Real" array="False" size=""/>
+            <declare name="totalCost" type="Real" array="False" size=""/>
+            <input variable="stSymbol"/>
+            <input variable="numShare"/>
+            <input variable="numCost"/>
+            <assign variable="totalCost" expression="numShare * numCost"/>
+            <output expression="&quot;Your stock ticker symbol is: &quot; &amp;stSymbol&amp; &quot;. And your amount invested is: $&quot; &amp;totalCost" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

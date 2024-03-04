@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Surface Pro 4"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 12:20:59 PM"/>
+        <attribute name="created" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wMy0wNDsxMjoxNTozMCBQTTszNDMz"/>
+        <attribute name="edited" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wMy0wNDsxMjoyMDo1OSBQTTsxOzM1NDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lastName" type="String" array="False" size=""/>
+            <declare name="midScore" type="Integer" array="False" size=""/>
+            <declare name="finalScore" type="Integer" array="False" size=""/>
+            <declare name="sumScore" type="Integer" array="False" size=""/>
+            <input variable="lastName"/>
+            <input variable="midScore"/>
+            <input variable="finalScore"/>
+            <assign variable="sumScore" expression="midScore + finalScore"/>
+            <output expression="&quot;Last Name: &quot; &amp;lastName&amp; &quot;. Total Score: &quot; &amp;sumScore" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

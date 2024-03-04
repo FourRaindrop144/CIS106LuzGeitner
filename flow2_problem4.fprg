@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Surface Pro 4"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 12:44:05 PM"/>
+        <attribute name="created" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wMy0wNDsxMjoyOTowMyBQTTszNDM4"/>
+        <attribute name="edited" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wMy0wNDsxMjo0NDowNSBQTTsxOzM1NDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="carMake" type="String" array="False" size=""/>
+            <declare name="carModel" type="String" array="False" size=""/>
+            <declare name="numMSRP" type="Real" array="False" size=""/>
+            <declare name="perDiscount" type="Real" array="False" size=""/>
+            <declare name="numDiscount" type="Real" array="False" size=""/>
+            <declare name="numDiscCost" type="Real" array="False" size=""/>
+            <input variable="carMake"/>
+            <input variable="carModel"/>
+            <input variable="numMSRP"/>
+            <input variable="perDiscount"/>
+            <assign variable="numDiscount" expression="numMSRP * perDiscount"/>
+            <assign variable="numDiscCost" expression="numMSRP - numDiscount"/>
+            <output expression="&quot;Your car is: &quot; &amp;carMake&amp; &quot; &quot; &amp;carModel&amp; &quot;. Your msrp is: $&quot; &amp;numMSRP&amp; &quot;. Your discount percent is: &quot; &amp;perDiscount&amp; &quot;. Your amount off msrp is: $&quot; &amp;numDiscount&amp; &quot;. And your final discounted price is: $&quot; &amp;numDiscCost&amp; &quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

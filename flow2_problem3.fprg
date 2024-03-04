@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Surface Pro 4"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 12:27:35 PM"/>
+        <attribute name="created" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wMy0wNDsxMjoyMjo0NSBQTTszNDM3"/>
+        <attribute name="edited" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wMy0wNDsxMjoyNzozNSBQTTsxOzM1NDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numPay" type="Real" array="False" size=""/>
+            <declare name="totalPay" type="Real" array="False" size=""/>
+            <input variable="numPay"/>
+            <assign variable="totalPay" expression="numPay / 3"/>
+            <output expression="&quot;You and your 2 friends split $&quot; &amp;numPay&amp; &quot; between eachother and walk away with $&quot; &amp;totalPay&amp; &quot; each.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

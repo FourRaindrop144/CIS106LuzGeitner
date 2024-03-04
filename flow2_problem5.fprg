@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Surface Pro 4"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 12:49:43 PM"/>
+        <attribute name="created" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wMy0wNDsxMjo0NDoxMiBQTTszNDM1"/>
+        <attribute name="edited" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wMy0wNDsxMjo0OTo0MyBQTTsxOzM1NTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numRadius" type="Real" array="False" size=""/>
+            <declare name="numArea" type="Real" array="False" size=""/>
+            <declare name="numPerim" type="Real" array="False" size=""/>
+            <input variable="numRadius"/>
+            <assign variable="numArea" expression="numRadius * numRadius * 3.14"/>
+            <assign variable="numPerim" expression="2 * 3.14 * numRadius"/>
+            <output expression="&quot;The area of the circle is: &quot; &amp;numArea&amp; &quot;. And the perimeter of the circle is: &quot; &amp;numPerim&amp; &quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
