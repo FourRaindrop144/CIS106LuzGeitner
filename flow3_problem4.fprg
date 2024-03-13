@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Surface Pro 4"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-13 01:48:11 PM"/>
+        <attribute name="created" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wMy0xMzswMTo0NDoxNSBQTTszNDM2"/>
+        <attribute name="edited" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wMy0xMzswMTo0ODoxMSBQTTsxOzM1NDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="firstName" type="String" array="False" size=""/>
+            <declare name="numSteps" type="Integer" array="False" size=""/>
+            <declare name="calBurned" type="Real" array="False" size=""/>
+            <input variable="firstName"/>
+            <input variable="numSteps"/>
+            <assign variable="calBurned" expression="numSteps * .25"/>
+            <output expression="&quot;First Name: &quot; &amp;firstName&amp; &quot;. Calories Burned: &quot; &amp;calBurned" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

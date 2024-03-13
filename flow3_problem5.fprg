@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Surface Pro 4"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-13 01:53:31 PM"/>
+        <attribute name="created" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wMy0xMzswMTo0ODoxOSBQTTszNDQ0"/>
+        <attribute name="edited" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wMy0xMzswMTo1MzozMSBQTTsxOzM1NDI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="fixedCost" type="Real" array="False" size=""/>
+            <declare name="unitPrice" type="Real" array="False" size=""/>
+            <declare name="unitCost" type="Real" array="False" size=""/>
+            <declare name="unitDiff" type="Real" array="False" size=""/>
+            <declare name="evenPoint" type="Real" array="False" size=""/>
+            <input variable="fixedCost"/>
+            <input variable="unitPrice"/>
+            <input variable="unitCost"/>
+            <assign variable="unitDiff" expression="unitPrice - unitCost"/>
+            <assign variable="evenPoint" expression="fixedCost / unitDiff"/>
+            <output expression="&quot;The break even point is: $&quot; &amp;evenPoint" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

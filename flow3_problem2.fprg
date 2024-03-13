@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Surface Pro 4"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-13 01:26:54 PM"/>
+        <attribute name="created" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wMy0wODswOTo1MDo1MiBBTTszNDMx"/>
+        <attribute name="edited" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wMy0xMzswMToyNjo1NCBQTTsxOzM1NDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sharePrice" type="Real" array="False" size=""/>
+            <declare name="stockPrice" type="Real" array="False" size=""/>
+            <declare name="stockNum" type="Real" array="False" size=""/>
+            <declare name="stockChange" type="Real" array="False" size=""/>
+            <input variable="sharePrice"/>
+            <input variable="stockPrice"/>
+            <input variable="stockNum"/>
+            <assign variable="stockChange" expression="(stockPrice - sharePrice) * stockNum"/>
+            <output expression="&quot;The stock price has changed by $&quot; &amp;stockChange" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

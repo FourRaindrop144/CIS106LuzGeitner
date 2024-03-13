@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Surface Pro 4"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-08 09:50:44 AM"/>
+        <attribute name="created" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wMy0wODswOTo0MTo1NyBBTTszNDM2"/>
+        <attribute name="edited" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wMy0wODswOTo1MDo0NCBBTTsxOzM1NDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="examOne" type="Integer" array="False" size=""/>
+            <declare name="examTwo" type="Integer" array="False" size=""/>
+            <declare name="weightOne" type="Real" array="False" size=""/>
+            <declare name="weightTwo" type="Real" array="False" size=""/>
+            <declare name="totalScore" type="Real" array="False" size=""/>
+            <input variable="examOne"/>
+            <input variable="examTwo"/>
+            <assign variable="weightOne" expression="examOne * .6"/>
+            <assign variable="weightTwo" expression="examTwo * .6"/>
+            <assign variable="totalScore" expression="weightOne + weightTwo"/>
+            <output expression="&quot;Your Total Exam Score is: &quot; &amp;totalScore" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
