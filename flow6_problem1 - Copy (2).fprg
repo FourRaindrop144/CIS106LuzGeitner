@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Surface Pro 4"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-03 01:40:38 PM"/>
+        <attribute name="created" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wNC0wMzswMTozNjoyOSBQTTszNDQy"/>
+        <attribute name="edited" value="U3VyZmFjZSBQcm8gNDtERVNLVE9QLUVQRTQwNkk7MjAyNC0wNC0wMzswMTo0MDozOCBQTTsxOzM1NDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <input variable="numWidgets"/>
+        </body>
+    </function>
+</flowgorithm>
